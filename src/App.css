@@ -1,0 +1,16 @@
+.App {
+  width: 1024px;
+  margin: auto;
+  position: relative;
+}
+
+button {
+  cursor: pointer;
+}
+
+input,
+button {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}

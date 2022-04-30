@@ -1,0 +1,79 @@
+form ul {
+  margin: 20px;
+  padding: 0;
+}
+form ul li {
+  display: grid;
+  align-items: center;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+form ul li:before {
+  content: attr(data-label);
+  position: absolute;
+  left: 15px;
+}
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  border-bottom: 2px solid black;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.header > div:last-of-type > *,
+form * {
+  margin: 0 5px;
+}
+
+.item-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.item {
+  display: flex;
+  align-self: center;
+  margin-bottom: 20px;
+}
+.item span {
+  display: block;
+  margin: 5px 0;
+}
+.item span:first-of-type {
+  font-weight: bold;
+}
+.item > div:first-of-type {
+  flex: 0.3;
+  margin-right: 20px;
+}
+.item > div:last-of-type {
+  flex: 0.7;
+}
+
+.title-box a {
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.share-box {
+  margin: 50px 0;
+}
+.share-box > div {
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+}
