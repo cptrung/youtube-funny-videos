@@ -42,9 +42,8 @@ createServer({
     this.post("/videos", (schema, request) => {
       const { url, email } = JSON.parse(request.requestBody);
       const videoId = getVideoId(url);
-
       fetch(
-        `https://www.googleapis.com/youtube/v3/videos?key=AIzaSyAowQ10zIsWelYu86DCIy9fjk9Ydagd4f0&fields=items(snippet(title,description))&part=snippet&id=${videoId}`
+        `https://www.googleapis.com/youtube/v3/videos?key=${process.env.REACT_APP_VIDEO_API_KEY}&fields=items(snippet(title,description))&part=snippet&id=${videoId}`
       )
         .then((response) => response.json())
         .then((data) => {

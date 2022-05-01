@@ -40,6 +40,7 @@ const Share = () => {
             <ul>
               <li data-label="Youtube URL:">
                 <input
+                  data-testid="url"
                   type="text"
                   value={url}
                   onChange={(e) => setUrl(e.target.value)}
