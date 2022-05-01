@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.ac0b65ca.chunk.css",
-  "main.js": "/static/js/main.74b76799.chunk.js",
-  "main.js.map": "/static/js/main.74b76799.chunk.js.map",
-  "static/js/1.a322975c.chunk.js": "/static/js/1.a322975c.chunk.js",
-  "static/js/1.a322975c.chunk.js.map": "/static/js/1.a322975c.chunk.js.map",
-  "static/js/2.29d54f3a.chunk.js": "/static/js/2.29d54f3a.chunk.js",
-  "static/js/2.29d54f3a.chunk.js.map": "/static/js/2.29d54f3a.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.c4991780.js",
-  "runtime~main.js.map": "/static/js/runtime~main.c4991780.js.map",
-  "static/css/main.ac0b65ca.chunk.css.map": "/static/css/main.ac0b65ca.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.443fecc01968d4b1b1d3bef930565fb8.js": "/precache-manifest.443fecc01968d4b1b1d3bef930565fb8.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/youtube-funny-videos/static/css/main.ac0b65ca.chunk.css",
+  "main.js": "/youtube-funny-videos/static/js/main.734fcac1.chunk.js",
+  "main.js.map": "/youtube-funny-videos/static/js/main.734fcac1.chunk.js.map",
+  "static/js/1.a322975c.chunk.js": "/youtube-funny-videos/static/js/1.a322975c.chunk.js",
+  "static/js/1.a322975c.chunk.js.map": "/youtube-funny-videos/static/js/1.a322975c.chunk.js.map",
+  "static/js/2.29d54f3a.chunk.js": "/youtube-funny-videos/static/js/2.29d54f3a.chunk.js",
+  "static/js/2.29d54f3a.chunk.js.map": "/youtube-funny-videos/static/js/2.29d54f3a.chunk.js.map",
+  "runtime~main.js": "/youtube-funny-videos/static/js/runtime~main.fc4380a9.js",
+  "runtime~main.js.map": "/youtube-funny-videos/static/js/runtime~main.fc4380a9.js.map",
+  "static/css/main.ac0b65ca.chunk.css.map": "/youtube-funny-videos/static/css/main.ac0b65ca.chunk.css.map",
+  "index.html": "/youtube-funny-videos/index.html",
+  "precache-manifest.78471fb77dde8d85573fb991789b5a63.js": "/youtube-funny-videos/precache-manifest.78471fb77dde8d85573fb991789b5a63.js",
+  "service-worker.js": "/youtube-funny-videos/service-worker.js"
 }
