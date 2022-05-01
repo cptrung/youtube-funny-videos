@@ -15,7 +15,7 @@ import "./server";
 function App() {
   const { token } = useToken();
   return (
-    <Router>
+    <Router basename={"/youtube-funny-videos"}>
       <div className="App">
         <Header />
         <Routes>
