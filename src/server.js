@@ -31,7 +31,6 @@ createServer({
   },
   routes() {
     this.namespace = "api";
-    this.passthrough("/youtube-funny-videos/***");
     this.passthrough("https://www.googleapis.com/youtube/v3/**");
 
     this.get("/videos", (schema) => {
