@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/deploy-github/precache-manifest.0472e140046745b4855a7b83ec50f1a3.js"
+  "/youtube-funny-videos/precache-manifest.2807bffe284e5b69de28ab1d6d8005a4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/deploy-github/index.html", {
+workbox.routing.registerNavigationRoute("/youtube-funny-videos/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
